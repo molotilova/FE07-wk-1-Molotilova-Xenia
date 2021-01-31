@@ -1,12 +1,12 @@
+ .awesome{
+     padding-top: 100px;
+     padding-bottom: 109px;
+ }
+
  .container{
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
-}
-
-.wrapper{
-  
-  
 }
 
 .line{
@@ -14,7 +14,8 @@
 }
 
 .section-title{
-    padding-top: 20px;  
+    text-transform: uppercase;
+    /*padding-top: 20px; */ 
     text-align: center;    
     font-family: Raleway, sans-serif;
     font-size: 36px;
