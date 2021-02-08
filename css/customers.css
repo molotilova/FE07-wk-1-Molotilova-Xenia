@@ -15,7 +15,6 @@
 }
 
 .review {
-    
     margin: 0 15px;
     flex-basis: 298px; 
     display: flex;
@@ -35,9 +34,7 @@
     font-size: 14px;
     line-height: 19px;
     text-align: center;
-    color: #86878B;
-    
-    
+    color: #86878B; 
 }
 
 .review-item::after{
@@ -54,7 +51,7 @@
 
 .review-person{
    margin-top: 22px;
-    display:flex;
+    display: flex;
     direction: inherit;
     justify-content: space-evenly;
     align-items: center;
@@ -67,7 +64,6 @@
     border-radius: 50%;
     overflow: hidden;
 }
-
 
 .review-surname{
     font-family: Open Sans;

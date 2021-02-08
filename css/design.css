@@ -58,6 +58,13 @@ padding-bottom: 38px;
    text-align: center;
 }
 
+.button-download:hover{
+    background-color:white;
+    text-decoration: underline;
+    color: black;
+    border:  1px solid black;
+}
+
 .button-download{
     display: inline-block;
     text-transform: uppercase;
