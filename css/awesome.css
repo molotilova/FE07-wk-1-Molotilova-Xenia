@@ -9,11 +9,6 @@
     padding: 0 15px;
 }
 
-.line{
-    margin: 25px auto 30px;
-   
-}
-
 .section-title{
     text-transform: uppercase;
     text-align: center;    
@@ -23,6 +18,17 @@
     font-weight: 400;
     color: #212121;
 }
+
+.section-title::after{
+    content: "";
+    display: block;
+    border-top: 2px solid #D98943;
+    width: 64px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 25px auto 30px;
+ }
 
 .description{
     text-align: center;
@@ -35,16 +41,14 @@
     color: #86878B;
 }
  
-.block-flex{
+.awesome-second-wrapper{
     display: flex; 
     margin: 0 -15px;
     justify-content: center;
     margin-top: 67px;
-    
-
 }
 
-.block{
+.advantages{
     margin: 0 15px;
     text-align: center;
     display: flex;
@@ -63,8 +67,7 @@
     margin-bottom: 30px;
 }
 
-
-.block-title{
+.advantages-title{
     margin-bottom: 16px;
     font-family: Open Sans, sans-serif;
     font-style: normal;
@@ -73,7 +76,7 @@
     line-height: 27px;
 }
 
-.block-text{
+.advantages-text{
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 400;

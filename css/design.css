@@ -5,6 +5,15 @@
     position: relative;
 }
 
+.container{
+    position: relative;
+}
+
+.wrapper-design{
+padding-top: 58px;
+padding-bottom: 38px;  
+}
+
 .design::before{
     content: "";
     background-color: rgba(0, 0, 0, 0.55);
@@ -13,11 +22,9 @@
     top: 0;
     left: 0;
     position: absolute;
-
 }
 
 .title-design{
-    margin-top: 50px;
     font-family: Raleway;
     font-weight: 400;
     font-size: 36px;
@@ -26,18 +33,33 @@
     color: #FFFFFF;
 }
 
-.description-design{
-font-family: Raleway;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: rgba(255, 255, 255, 0.8);
+.title-design::after{
+    content: "";
+    display: block;
+    border-top: 2px solid #FFFFFF;
+    width: 64px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 34px auto 34px;
+ }
+
+.description-design{ 
+    padding-bottom: 57px; 
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
 }
 
-.button{}
+.button{
+   text-align: center;
+}
 
 .button-download{
+    display: inline-block;
     text-transform: uppercase;
     font-family: Open Sans;
     font-weight: 600;
