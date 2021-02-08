@@ -1,0 +1,90 @@
+.customers{
+    padding-top: 80px;
+    padding-bottom: 119px;
+}
+
+.customers-first-wrapper{
+    margin-bottom: 67px;
+}
+
+.customers-second-wrapper{
+    margin: 0 -15px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.review {
+    
+    margin: 0 15px;
+    flex-basis: 298px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.review-item{
+    background: #E2E2E2;
+    border-radius: 7px;
+    padding: 9px 22px;
+    position: relative;
+}
+
+.review-item-text{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+    
+    
+}
+
+.review-item::after{
+    content: "";
+    width: 0; 
+    height: 0; 
+    border-left: 17px solid transparent; 
+    border-right: 17px solid transparent; 
+    border-top: 24px solid #E2E2E2;
+    position: absolute;
+    bottom: -17px;
+   
+}
+
+.review-person{
+   margin-top: 22px;
+    display:flex;
+    direction: inherit;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.review-person-photo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.review-surname{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    color: #333333;
+}
+
+.review-post{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: #86878B;
+}

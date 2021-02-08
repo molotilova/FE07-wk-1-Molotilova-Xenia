@@ -11,6 +11,7 @@
 
 .line{
     margin: 25px auto 30px;
+   
 }
 
 .section-title{
@@ -46,6 +47,8 @@
 .block{
     margin: 0 15px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .icon-circle{
@@ -56,26 +59,10 @@
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-}
-
-/*.icon{
-    display: inline-block;
-    border: 1px solid chocolate;
-    border-radius: 50%;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
-*/
-.circle_1{
-    padding: 20px 23px 20px 24px;
-}
 
-.circle_2{
-    padding: 22px 16px 22px 17px;
-}
-
-.circle_3{
-    padding: 19px 24px 18px 25px;
-}
 
 .block-title{
     margin-bottom: 16px;
