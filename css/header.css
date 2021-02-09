@@ -1,0 +1,43 @@
+.top{
+    padding-top: 20px;
+    padding-bottom: 19px;
+    background-color: black;
+}
+
+.top-wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+}
+
+.logo {
+    height: 31px;
+    width: 68px; 
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item{
+    margin-left: 48px;
+    text-transform: capitalize;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.menu-item:first-child{
+    margin-left: 0;
+}
+
+
+.menu-item:hover{
+    text-decoration: underline;
+    
+}

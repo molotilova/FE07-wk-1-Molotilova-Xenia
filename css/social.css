@@ -1,0 +1,42 @@
+.social{
+    padding-top: 14px;
+    padding-bottom: 17px;
+    background-color: #F8EFEF;
+}
+
+.social-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.social-title{
+    padding-bottom: 14px;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+
+
+.social-subtitle{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.social-icons{
+    padding: 34px 0;
+    font-family: "Font awesome 5 Free";
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 60px;
+    color: #86878B;
+}
+
+.social-icons i:last-child{
+    letter-spacing: 0;
+}
