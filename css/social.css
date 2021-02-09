@@ -29,14 +29,15 @@
 }
 
 .social-icons{
-    padding: 34px 0;
+    padding: 34px 0 0 0;
     font-family: "Font awesome 5 Free";
     font-size: 42px;
     font-weight: 900;
-    letter-spacing: 60px;
     color: #86878B;
 }
-
+.social-icons i{
+    margin-right: 40px;
+}
 .social-icons i:last-child{
-    letter-spacing: 0;
+    margin-right: 0;
 }
