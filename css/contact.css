@@ -41,6 +41,10 @@
     border-bottom: 1px solid #BDBDBD;
 }
 
+.contact-form-text:focus{
+    outline: 0;
+}
+
 .send-contact{
     padding: 11px 32px;
     font-family: Open Sans, sans-serif;
@@ -50,7 +54,7 @@
     text-align: center;
     color: #FFFFFF;
     background: #EC7979;
-border: 1px solid #FFFFFF;
+    border: 1px solid #FFFFFF;
 }
 
 .send-contact:hover{

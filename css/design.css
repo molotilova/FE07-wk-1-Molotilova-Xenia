@@ -1,5 +1,5 @@
 .design{
-    background-image: url("/img/bg/background_design.png");
+    background-image: url("../img/bg/background_design.png");
     background-repeat: no-repeat;
     background-size: cover;  
     position: relative;
@@ -60,7 +60,6 @@ padding-bottom: 38px;
 
 .button-download:hover{
     background-color:white;
-    text-decoration: underline;
     color: black;
     border:  1px solid black;
 }

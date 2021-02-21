@@ -1,11 +1,11 @@
-@import url("/css/awesome.css");
-@import url("/css/pricing.css");
-@import url("/css/customers.css");
-@import url("/css/design.css");
-@import url("/css/footer.css");
-@import url("/css/header.css");
-@import url("/css/social.css");
-@import url("/css/first-screen.css");
+@import url("./awesome.css");
+@import url("./pricing.css");
+@import url("./customers.css");
+@import url("./design.css");
+@import url("./footer.css");
+@import url("./header.css");
+@import url("./social.css");
+@import url("./first-screen.css");
 @import url("./tab.css");
 @import url("./contact.css");
 
@@ -16,5 +16,4 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none; 
-    
 }

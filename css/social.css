@@ -46,7 +46,11 @@
 }
 
 .social-icons-item a{
-    color: #86878B;;
+    color: #86878B;
+}
+
+.social-icons-item a:hover{
+    color: #EC7979;
 }
 
 .social-icons-item:last-child{
