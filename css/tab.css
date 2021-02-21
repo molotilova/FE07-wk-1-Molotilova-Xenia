@@ -1,0 +1,71 @@
+.tab-wrapper{
+    padding-top: 120px;
+    padding-bottom: 210px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between;
+}
+
+.tab-button{
+    display: block;
+    margin-bottom: 10px;
+    padding: 45px 35px;
+    background: #333333;
+    border-radius: 4px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.tab-button:hover{
+    background-color: #EC7979;
+    border-color: #EC7979;
+    outline: none;
+}
+
+.center-tab{
+   max-width: 50% ;
+}
+
+.tab-title{
+    margin-bottom: 58px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.tab-description{
+    margin-bottom: 100px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #86878B;
+}
+
+.tab-button-download{
+    padding: 11px 25px;
+    background: #EC7979;
+    border: 1px solid #FFFFFF;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tab-button-download:hover{
+    color: #EC7979;
+    background-color: #FFFFFF;
+    border: 1px solid #EC7979;
+}

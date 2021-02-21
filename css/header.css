@@ -1,10 +1,10 @@
-.top{
+.header{
     padding-top: 20px;
     padding-bottom: 19px;
     background-color: black;
 }
 
-.top-wrapper{
+.header-wrapper{
         display: flex;
         flex-direction: row;
         justify-content: space-between; 
@@ -39,5 +39,4 @@
 
 .menu-item:hover{
     text-decoration: underline;
-    
 }

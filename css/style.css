@@ -5,6 +5,9 @@
 @import url("/css/footer.css");
 @import url("/css/header.css");
 @import url("/css/social.css");
+@import url("/css/first-screen.css");
+@import url("./tab.css");
+@import url("./contact.css");
 
 
 * {

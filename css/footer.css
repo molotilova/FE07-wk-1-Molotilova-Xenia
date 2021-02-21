@@ -1,24 +1,30 @@
-.bottom{
+.footer{
     background-color: black;
 }
 
-.bottom-wrapper{
+.footer-wrapper{
     padding-top: 34px;
     padding-bottom: 15px;
+    margin: 0 auto;
 }
 
-.bottom-social-icons{
+.footer-social-icons{
     margin-bottom: 18px;
     font-family: "Font awesome 5 Free";
     font-size: 24px;
     font-weight: 900;
     letter-spacing: 10px;
     color: #86878B;
-    text-align: center;
 }
 
+.social-icons-list{
+    justify-content: center;
+}
+.footer-social-icons i:hover{
+    color:white;
+}
 
-.bottom-rights-text{
+.footer-rights-text{
     font-family: Open Sans;
     font-weight: 400;
     font-size: 12px;

@@ -7,15 +7,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"  rel="stylesheet"> 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Landing</title>
 </head>
 
-<header class="top">
+<header class="header">
     <div class="container">
-    <div class="top-wrapper">
+    <div class="header-wrapper">
         <div class="logo">  
-            <img src="/img/icons/logo.svg">
+            <img src="./img/icons/logo.svg">
         </div>
 
         <nav class="menu-wrapper">
@@ -31,6 +31,59 @@
 </div>
 </header>
 
+<section class="first-screen">
+    <div class="container fs">
+        <div class="wrapper-left">
+            <div class="first-screen-logo">
+                <img src="./img/icons/AXIT.png">
+            </div>
+            <div  class="first-screen-description">
+                <h1 class="first-screen-title">MODERN AXURE TEMPLATE<br> FOR BEAUTIFUL PROTOTYPES</h1>
+                <p class="first-screen-text">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit. Aenean</p>
+                <a class="first-screeen-link" href="#">DOWNLOAD</a>
+            </div>
+        </div>
+
+        <div class="wrapper-right">
+        <form class="trial-form" action="#" method="POST">
+            <div class="wrapper-form">
+                <label class="form-title">Try Your <span class="red-text">FREE</span> Trial Today</label><br>
+                <input class="form-field" type="text" placeholder="Name"><br>
+                <input class="form-field" type="email" placeholder="Email"><br>
+                <input class="form-field" type="password" placeholder="Password"> <br>
+            </div>
+            
+            <button class="get-button" type="submit">Get Started</button>
+        </form>
+        </div>
+    </div>
+</section>
+
+<section class="tab">
+    <div class="container">
+        <div class="tab-wrapper">
+            <div class="left-tab">
+                <div class="tab-button">TAB 1</div>
+                <div class="tab-button">TAB 2</div>
+                <div class="tab-button">TAB 3</div>
+            </div>
+            <div class="center-tab">
+                <h2 class="tab-title">Tabs with soft transitioning effect.</h2>
+                <p class="tab-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                    penatibus et magnis dis parturient montes.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet.</p>
+                <a class="tab-button-download">Download</a>
+            </div>
+            <div class="right">
+                <img src="./img/icons/tabs.png">
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <section class="social">
     <div class="container">
         <div class="social-wrapper">
@@ -42,15 +95,16 @@
             </div>
 
             <div class="social-icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-pinterest"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-stumbleupon"></i>
-                <i class="fas fa-rss"></i>
+                <ul class="social-icons-list">
+                    <li class="social-icons-item"><a class="fab fa-facebook-f" href="https://facebook.com"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-twitter" href="https://twitter.com"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-google-plus-g" href="https://google.com"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-pinterest" href="https://www.pinterest.com/"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-instagram" href="https://instagram.com"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-stumbleupon" href="https://google.com"></a></li>
+                    <li class="social-icons-item"><a class="fas fa-rss" href="https://google.com"></a></li>
+                </ul>             
             </div>
-
         </div>
     </div>
 
@@ -69,7 +123,9 @@
        <div class="awesome-second-wrapper ">
         <div class="advantages">
             <div class="icon-circle"> 
-                 <img src="img/1.png" >
+                <div class="advantages-icon">
+                    <i class="far fa-lightbulb"></i>
+                </div>
             </div>
             <p class="advantages-title">Thoughtful Design</p>
             <p class="advantages-text">Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -78,7 +134,9 @@
 
         <div class="advantages">
             <div class="icon-circle">  
-                <img src="img/2.png">
+                <div class="advantages-icon">
+                    <i class="far fa-keyboard"></i>
+                </div>
             </div>
          
             <p class="advantages-title">Well Crafted</p>
@@ -87,8 +145,10 @@
         </div>
 
         <div class="advantages">
-            <div class="icon-circle">  
-                <img src="img/3.png">
+            <div class="icon-circle"> 
+                <div class="advantages-icon">
+                    <i class="fal fa-bolt"></i>
+                </div> 
             </div>
             <p class="advantages-title">Easy to Customize</p>
             <p class="advantages-text">Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -228,21 +288,54 @@
       </div>
   </section>
 
-  <footer class="bottom">
+
+<section class="contact">
+    <div class="container">
+        <div class="contact-first-wrapper">
+            <h2 class="section-title">contact us</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           </div>
+
+           <div class="contact-second-wrapper">
+                <form action="#" method="POST">
+                       <div class="form-wrapper">
+                       <div class="form-left">
+                        <input class="contact-form-text" type="text" placeholder="Name">
+                        <input class="contact-form-text" type="email" placeholder="Email">
+                        <input class="contact-form-text" type="password" placeholder="Password"> 
+                       </div>
+
+                       <div class="form-right">
+                        <textarea class="contact-form-text"  maxlength="256" placeholder="Message"></textarea>
+                       </div>
+                    </div>
+                       <div class="form-bottom">
+                           <button class="send-contact" type="submit">Send Message</button>
+                    </div>
+                        
+                    </form>
+               </div>
+           </div>
+
+</section>
+
+  <footer class="footer">
       <div class="container">
-        <div class="bottom-wrapper">
-            <div class="bottom-social-icons">
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-pinterest"></i>
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-stumbleupon"></i>
-                <i class="fas fa-rss"></i>
+        <div class="footer-wrapper">
+            <div class="footer-social-icons">
+                <ul class="social-icons-list">
+                    <li class="social-icons-item"><a class="fab fa-facebook-f" href="https://facebook.com"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-twitter" href="https://twitter.com"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-google-plus-g" href="https://google.com"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-pinterest" href="https://www.pinterest.com/"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-instagram" href="https://instagram.com"></a></li>
+                    <li class="social-icons-item"><a class="fab fa-stumbleupon" href="https://google.com"></a></li>
+                    <li class="social-icons-item"><a class="fas fa-rss" href="https://google.com"></a></li>
+                </ul>    
             </div>   
             
-            <div class="bottom-rights">
-                <p class="bottom-rights-text"> © 2015 Axure Themes </p>
+            <div class="footer-rights">
+                <p class="footer-rights-text"> © 2015 Axure Themes </p>
             </div>
 
         </div>

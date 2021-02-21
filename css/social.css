@@ -7,6 +7,7 @@
 .social-wrapper{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -29,15 +30,25 @@
 }
 
 .social-icons{
-    padding: 34px 0 0 0;
     font-family: "Font awesome 5 Free";
     font-size: 42px;
     font-weight: 900;
     color: #86878B;
 }
-.social-icons i{
+
+.social-icons-list{
+    display: flex;
+    flex-direction: row;
+}    
+
+.social-icons-item{
     margin-right: 40px;
 }
-.social-icons i:last-child{
+
+.social-icons-item a{
+    color: #86878B;;
+}
+
+.social-icons-item:last-child{
     margin-right: 0;
 }
