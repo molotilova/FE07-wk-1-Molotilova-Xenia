@@ -43,16 +43,13 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
     left: 0;
-    bottom: 0;
+    bottom: -2px;
     transition: 0.5s;
     transform: scale(0);
     transform-origin: left;
 }
-
-
-
 
 .menu-item:hover::before{
     transform: scale(1);
