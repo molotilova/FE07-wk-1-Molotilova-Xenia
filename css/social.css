@@ -56,3 +56,47 @@
 .social-icons-item:last-child{
     margin-right: 0;
 }
+
+
+@media(max-width: 992px){
+            /* SOCIAL */
+    .social-wrapper{
+       flex-direction: column;
+    }
+
+    .social-description{
+        text-align: center;
+        margin-bottom: 14px;
+    }
+
+    /* TAB */
+    .right{
+        display: none;
+    }
+
+    .tab-wrapper{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    
+
+
+
+
+}
+
+
+@media(max-width: 768px){
+    
+}
+
+@media(max-width: 576px){
+    /* FIRST SCREEN */
+    .fs{
+        display: block;
+    }
+    .wrapper-right {
+        padding-top: 50px;
+        padding-bottom: 50px;
+}

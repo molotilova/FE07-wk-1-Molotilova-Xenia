@@ -47,39 +47,30 @@
         <div class="wrapper-right">
         <form class="trial-form" action="#" method="POST">
             <div class="wrapper-form">
-                <label class="form-title">Try Your <span class="red-text">FREE</span> Trial Today</label><br>
-                <input class="form-field" type="text" placeholder="Name"><br>
-                <input class="form-field" type="email" placeholder="Email"><br>
-                <input class="form-field" type="password" placeholder="Password"> <br>
+                <div class="form-title">
+                    <label>Try Your <span class="red-text">FREE</span> Trial Today</label><br>
+                </div>
+
+                <div class="form-item">
+                    <label class="form-label">Name</label>
+                    <input class="form-field" type="text" placeholder="">
+                </div>
+
+                
+                <div class="form-item">
+                    <label class="form-label">Email</label>
+                    <input class="form-field" type="email" placeholder="">
+                </div>
+                
+                <div class="form-item">
+                    <label class="form-label">Password</label>
+                    <input class="form-field" type="password" placeholder="">
+                </div>
+
             </div>
             
             <button class="get-button" type="submit">Get Started</button>
         </form>
-        </div>
-    </div>
-</section>
-
-<section class="tab">
-    <div class="container">
-        <div class="tab-wrapper">
-            <div class="left-tab">
-                <div class="tab-button">TAB 1</div>
-                <div class="tab-button">TAB 2</div>
-                <div class="tab-button">TAB 3</div>
-            </div>
-            <div class="center-tab">
-                <h2 class="tab-title">Tabs with soft transitioning effect.</h2>
-                <p class="tab-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                    penatibus et magnis dis parturient montes.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                    bibendum laoreet.</p>
-                <a class="tab-button-download">Download</a>
-            </div>
-            <div class="right">
-                <img src="./img/icons/tabs.png">
-            </div>
-
         </div>
     </div>
 </section>
@@ -111,7 +102,32 @@
 
 </section>
 
-   <section class="awesome">
+<section class="tab">
+    <div class="container">
+        <div class="tab-wrapper">
+            <div class="left-tab">
+                <div class="tab-button">TAB 1</div>
+                <div class="tab-button">TAB 2</div>
+                <div class="tab-button">TAB 3</div>
+            </div>
+            <div class="center-tab">
+                <h2 class="tab-title">Tabs with soft transitioning effect.</h2>
+                <p class="tab-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                    penatibus et magnis dis parturient montes.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                    bibendum laoreet.</p>
+                <a class="tab-button-download">Download</a>
+            </div>
+            <div class="right">
+                <img src="./img/icons/tabs.png">
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="awesome">
        <div class="container">
        <div class="awesome-first-wrapper">
         <h2 class="section-title">Why THIS IS AWESOME</h2>
@@ -155,9 +171,9 @@
         </div>
        </div>
        </div>
-   </section>
+</section>
 
-   <section class="pricing">
+<section class="pricing">
     <div class="container">
        <div class="pricing-first-wrapper">
         <h2 class="section-title">pricing options</h2>
@@ -210,9 +226,9 @@
        </div>
 
     </div>
-   </section>
+</section>
 
-   <section class="customers">
+<section class="customers">
        <div class="container">
         <div class="customers-first-wrapper">
                 <h2 class="section-title">what our customers are saying</h2>
@@ -227,7 +243,7 @@
 
                 <div class="review-person">
                     <div class="review-person-photo">
-                        <img src="./img/photo/avatar.png">
+                        <img class="photo-width" src="/img/photo/Esther-Yoon-Headshot-410x410.jpg">
                     </div>
                     
                     <div class="review-person-description">
@@ -244,7 +260,7 @@
     
                     <div class="review-person">
                         <div class="review-person-photo">
-                            <img src="./img/photo/avatar.png">
+                            <img class="photo-width" src="./img/photo/avatar.png">
                         </div>
                         
                         <div class="review-person-description">
@@ -261,7 +277,7 @@
         
                         <div class="review-person">
                             <div class="review-person-photo">
-                                <img src="./img/photo/avatar.png">
+                                <img class="photo-width" src="./img/photo/avatar.png">
                             </div>
                             
                             <div class="review-person-description">
@@ -272,9 +288,9 @@
                         </div>    
         </div>
        </div>
-   </section>
+</section>
 
-  <section class="design">
+<section class="design">
       <div class="container">
           <div class="wrapper-design">
                 <h2 class="title-design"> STYLISH AXURE DESIGN</h2>
@@ -285,7 +301,7 @@
           </div>         
       
       </div>
-  </section>
+</section>
 
 <section class="contact">
     <div class="container">
@@ -298,14 +314,26 @@
                 <form action="#" method="POST">
                        <div class="form-wrapper">
                        <div class="form-left">
-                        <input class="contact-form-text" type="text" placeholder="Name">
-                        <input class="contact-form-text" type="email" placeholder="Email">
-                        <input class="contact-form-text" type="password" placeholder="Password"> 
+
+                            <div class="contact-form-input">
+                                <label class="form-label">Name</label>
+                                <input class="form-field" type="text" placeholder="">
+                            </div>
+                            <div class="contact-form-input">
+                                <label class="form-label">Email</label>
+                                <input class="form-field" type="email" placeholder="">
+                            </div>
+                            <div class="contact-form-input">
+                                <label class="form-label">Password</label>
+                                <input class="form-field" type="password" placeholder="">
+                            </div>
+                       </div>        
+                        
+                       <div class="form-right">
+                        <label class="form-label">Message</label>
+                        <textarea class="contact-form-text"  maxlength="256" placeholder=""></textarea>
                        </div>
 
-                       <div class="form-right">
-                        <textarea class="contact-form-text"  maxlength="256" placeholder="Message"></textarea>
-                       </div>
                     </div>
                        <div class="form-bottom">
                            <button class="send-contact" type="submit">Send Message</button>
@@ -317,7 +345,7 @@
 
 </section>
 
-  <footer class="footer">
+<footer class="footer">
       <div class="container">
         <div class="footer-wrapper">
             <div class="footer-social-icons">
@@ -339,7 +367,7 @@
         </div>
       </div>
       
-  </footer>
+</footer>
 
 </body>
 </html>

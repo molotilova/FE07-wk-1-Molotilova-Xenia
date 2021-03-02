@@ -122,16 +122,30 @@
     border-radius: 8px 8px 0 0;
 }
 
-.form-field{
-    border: 0;
-    border-bottom: 1px solid #BDBDBD;
-    padding-bottom: 20px;
-    padding-top: 20px;
+.form-title{
+    padding-bottom: 44px;
+}
+
+.form-item{
+    padding-bottom: 19px;
+}
+
+.form-item:last-child{
+    padding-bottom: 0px;
+}
+
+.form-label{
     font-family: Open Sans;
     font-weight: 400;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 18px;
     color: #BDBDBD;
+    
+}
+
+.form-field{
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
     width: 100%;
 }
 

@@ -27,6 +27,7 @@
     border-radius: 7px;
     padding: 9px 22px;
     position: relative;
+    flex: 1 0 auto;
 }
 
 .review-item-text{
@@ -57,6 +58,10 @@
     justify-content: space-evenly;
     align-items: center;
     
+}
+
+.photo-width{
+    width: 70px;
 }
 
 .review-person-photo{
