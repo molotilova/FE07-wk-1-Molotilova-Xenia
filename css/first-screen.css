@@ -171,3 +171,43 @@
     background-color: #FFFFFF;
     border: 2px solid #EC7979;
 }
+
+@media(max-width: 576px){
+    /* FIRST SCREEN */
+    .fs{
+        display: block;
+    }
+    .wrapper-right {
+        padding-top: 50px;
+        padding-bottom: 50px;
+}
+
+.wrapper-left {
+        padding-bottom: 0px;
+}
+
+.first-screen-logo{
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.trial-form {
+       width: 100%; 
+    }
+
+.form-title{
+    text-align: center;
+   }
+
+.first-screen-title::after {
+    position: relative;
+    left: calc(50% - 32px);
+}
+
+.first-screen-description{
+    text-align: center;
+}
+
+
+
+}    
